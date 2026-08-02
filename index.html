@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yasmim Arsego — Backend Developer</title>
+  <meta name="description" content="Yasmim Arsego — Computer Engineering student and backend developer. Python, FastAPI, REST APIs, SQL.">
+  <link rel="canonical" href="https://yasmimar.github.io/">
+
+  <!-- Link preview when the URL is pasted into Slack, LinkedIn, WhatsApp -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Yasmim Arsego — Backend Developer">
+  <meta property="og:description" content="Computer Engineering student. Python, FastAPI, REST APIs.">
+  <meta property="og:url" content="https://yasmimar.github.io/">
+  <meta property="og:image" content="https://yasmimar.github.io/assets/me.jpeg">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,400..700,0..100,0..1&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Without JS the tabs can't switch, so show every panel as one long page
+       and drop the nav that would no longer do anything. -->
+  <noscript>
+    <style>
+      nav { display: none; }
+      [role="tabpanel"][hidden] {
+        display: block !important;
+        content-visibility: visible !important;
+      }
+    </style>
+  </noscript>
+</head>
+<body>
+  <div class="card">
+
+    <nav>
+      <ul role="tablist" aria-label="Sections">
+        <li><button role="tab" id="tab-home"       aria-controls="panel-home"       aria-selected="true">home</button></li>
+        <li><button role="tab" id="tab-experience" aria-controls="panel-experience" aria-selected="false" tabindex="-1">experience</button></li>
+        <li><button role="tab" id="tab-projects"   aria-controls="panel-projects"   aria-selected="false" tabindex="-1">projects</button></li>
+        <li><button role="tab" id="tab-contact"    aria-controls="panel-contact"    aria-selected="false" tabindex="-1">contact</button></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+
+      <aside>
+        <img src="assets/me.jpeg" alt="Portrait of Yasmim Arsego" width="180" height="180">
+        <h1>Yasmim Arsego</h1>
+        <p class="role">Backend Developer</p>
+        <p class="location">Antônio Prado — Rio Grande do Sul — Brazil</p>
+
+        <ul class="social">
+          <li>
+            <a href="https://github.com/YasmimAr" aria-label="GitHub" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                <path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.8 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 1.7 2.7 1.2 3.4.9.1-.7.4-1.2.7-1.5-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.8-5.8 7.8-10.9C23.5 5.7 18.3.5 12 .5z"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/yasmimarsego/" aria-label="LinkedIn" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 5.9V21h-4v-5.5c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9z"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:arsegoyasmim@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="m2 7 10 6 10-6"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <a class="cv" href="assets/resume_yasmim_arsego.pdf" target="_blank" rel="noopener" download>
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3v12"/>
+            <path d="m7 11 5 5 5-5"/>
+            <path d="M4 20h16"/>
+          </svg>
+          Download CV (PDF)
+        </a>
+      </aside>
+
+      <main>
+
+        <!-- ===== HOME ===== -->
+        <section id="panel-home" role="tabpanel" aria-labelledby="tab-home" tabindex="0">
+          <h2>about me</h2>
+          <p>
+            I'm a Computer Engineering student with 2+ years of QA experience at a US SaaS
+            company, now moving into backend development.
+          </p>
+          <p>
+            QA is what I'm bringing with me, not what I'm leaving behind. I know how systems
+            break, how to test them until they do, and what makes code hold up in production.
+            One of the internal tools I built there cut a recurring 10-hour manual process down
+            to under an hour, and I built a monitoring system that runs daily against our largest
+            client's platform.
+          </p>
+          <p>
+            Now I'm building instead of testing. CulturalExchange is a REST API I designed and
+            built end to end &mdash; data model, authentication, business rules &mdash; for a
+            problem I lived through: youth exchange opportunities scattered as PDFs across
+            WhatsApp groups.
+          </p>
+          <p>
+            I'm looking for backend roles, and I'm moving to Trento, Italy in September for an
+            exchange semester.
+          </p>
+
+          <h2 class="spaced">stack</h2>
+          <ul class="pills">
+            <li>Python</li>
+            <li>FastAPI</li>
+            <li>SQL</li>
+            <li>Git</li>
+            <li>CI/CD</li>
+          </ul>
+        </section>
+
+        <!-- ===== EXPERIENCE ===== -->
+        <section id="panel-experience" role="tabpanel" aria-labelledby="tab-experience" tabindex="0" hidden="until-found">
+          <h2>experience</h2>
+          <ul class="timeline">
+            <li>
+              <div class="timeline-head">
+                <h3>Quality Assurance Engineer</h3>
+                <span class="period">apr 2024 — jun 2026</span>
+              </div>
+              <p class="company">TestBox — Remote (United States)</p>
+              <p class="progression">QA Tester &rarr; Associate QA Engineer &rarr; Associate Data Engineer</p>
+              <ul class="bullets">
+                <li>
+                  Designed and built an internal tool that automated reading and verifying components
+                  of a web application, cutting a manual process from roughly 10 hours to 1 hour.
+                </li>
+                <li>
+                  Built an automated monitoring system running daily against the largest client's
+                  platform — collecting end-to-end metrics, detecting out-of-range values, and firing
+                  alerts, making incident detection proactive rather than reactive.
+                </li>
+                <li>
+                  Integrated automated runs into CI/CD pipelines, supporting faster and more reliable
+                  deploy cycles.
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <h2 class="spaced">education</h2>
+          <ul class="timeline">
+            <li>
+              <div class="timeline-head">
+                <h3>BSc in Computer Engineering</h3>
+                <span class="period">oct 2023 — dec 2028</span>
+              </div>
+              <p class="company">Universidade de Caxias do Sul (UCS)</p>
+            </li>
+          </ul>
+
+          <h2 class="spaced">also</h2>
+          <ul class="asides">
+            <li>
+              <strong>EletroQuad</strong> — competition team building a drone from scratch;
+              I work across hardware and software on the control system, focused on autonomous flight.
+            </li>
+            <li>
+              <strong>LEO Club, Lions Clubs International</strong> — 7 years volunteering, designing
+              and facilitating training sessions for groups of up to 70 people.
+            </li>
+          </ul>
+        </section>
+
+        <!-- ===== PROJECTS ===== -->
+        <section id="panel-projects" role="tabpanel" aria-labelledby="tab-projects" tabindex="0" hidden="until-found">
+          <h2>projects</h2>
+          <ul class="cards">
+            <li>
+              <h3>CulturalExchange</h3>
+              <p class="stack">Python · FastAPI · SQLModel · SQLite</p>
+              <p>
+                Youth exchange opportunities were being shared as loose PDFs in WhatsApp groups —
+                no way to search by country, filter by date, or apply. I built the API that
+                structures it: relational data model, JWT/OAuth2 authentication, role- and
+                ownership-based authorization, full CRUD, combinable search filters, and
+                auto-generated Swagger docs.
+              </p>
+              <div class="card-links">
+                <a href="https://culturalexchange.onrender.com/docs" target="_blank" rel="noopener">Live API docs &rarr;</a>
+                <a href="https://github.com/YasmimAr/culturalexchange" target="_blank" rel="noopener">Source &rarr;</a>
+              </div>
+            </li>
+            <li>
+              <h3>cache-simulator</h3>
+              <p class="stack">Python · Computer architecture</p>
+              <p>
+                Cache memory simulator with configurable mapping and replacement policies,
+                documented in scientific-paper format with experimental results.
+              </p>
+              <a href="https://github.com/YasmimAr/cache-simulator" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+            </li>
+          </ul>
+        </section>
+
+        <!-- ===== CONTACT ===== -->
+        <section id="panel-contact" role="tabpanel" aria-labelledby="tab-contact" tabindex="0" hidden="until-found">
+          <h2>contact</h2>
+          <p>Open to backend engineering roles. The fastest way to reach me is email.</p>
+          <ul class="contact-list">
+            <li><span>Availability</span><span>Based in Brazil (UTC&minus;3) until September 2026, then Trento, Italy (UTC+2) for an exchange semester. Open to remote roles worldwide (available as a contractor) and to internships in Europe.</span></li>
+            <li><span>Email</span><a href="mailto:arsegoyasmim@gmail.com">arsegoyasmim@gmail.com</a></li>
+            <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/yasmimarsego/" target="_blank" rel="noopener">in/yasmimarsego</a></li>
+            <li><span>GitHub</span><a href="https://github.com/YasmimAr" target="_blank" rel="noopener">YasmimAr</a></li>
+            <li><span>Languages</span><span>Portuguese (native), English (professional)</span></li>
+          </ul>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
+  <script>
+    const tabs   = [...document.querySelectorAll('[role="tab"]')];
+    const panels = tabs.map(tab => document.getElementById(tab.getAttribute('aria-controls')));
+
+    function select(index, focusTab = false) {
+      tabs.forEach((tab, i) => {
+        const active = i === index;
+        tab.setAttribute('aria-selected', active);
+        tab.tabIndex = active ? 0 : -1;
+        // 'until-found' keeps the panel hidden but reachable by Ctrl+F.
+        // Browsers without support coerce the string to true, so it just hides.
+        panels[i].hidden = active ? false : 'until-found';
+      });
+
+      history.replaceState(null, '', '#' + tabs[index].id.replace('tab-', ''));
+      if (focusTab) tabs[index].focus();
+    }
+
+    tabs.forEach((tab, i) => tab.addEventListener('click', () => select(i)));
+
+    // Ctrl+F matched text inside a closed tab: the browser is about to reveal
+    // that panel, so switch to its tab first and keep the nav in sync.
+    panels.forEach((panel, i) => panel.addEventListener('beforematch', () => select(i)));
+
+    // Arrow keys move between tabs; home/end jump to the ends.
+    document.querySelector('[role="tablist"]').addEventListener('keydown', event => {
+      const current = tabs.indexOf(document.activeElement);
+      if (current === -1) return;
+
+      const moves = {
+        ArrowRight: current + 1,
+        ArrowLeft:  current - 1,
+        Home: 0,
+        End: tabs.length - 1
+      };
+      if (!(event.key in moves)) return;
+
+      event.preventDefault();
+      select((moves[event.key] + tabs.length) % tabs.length, true);
+    });
+
+    // Open whichever tab the URL names, so #projects can be linked directly.
+    const fromHash = tabs.findIndex(tab => tab.id === 'tab-' + location.hash.slice(1));
+    select(fromHash === -1 ? 0 : fromHash);
+  </script>
+</body>
+</html>
